@@ -13,3 +13,4 @@ for test_case in range(1, T + 1):
     new_list = sum_list[:N-M+1]
 
     print(f'#{test_case} {max(new_list)-min(new_list)}')
+
