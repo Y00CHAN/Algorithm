@@ -11,7 +11,7 @@ for tc in range(1, T + 1):
     for i in range(N):
         for j in range(N):
             ci, cj = i, j
-            total_moves = 0     # 왜 1일까? 문제에 출발지점부터 1 이란말이 있었나?
+            total_moves = 1    # 왜 1일까? 문제에 출발지점부터 1 이란말이 있었나? >> 이동 횟수 구하는게 아니고 칸수 구하는 문제였음
 
             for step in range(N*N):
                 around_min_num = 1000
